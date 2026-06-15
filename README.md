@@ -24,3 +24,57 @@ The paper also says that serverless is not very strong for distributed computing
 For future cloud programming, the authors suggest some improvements. First, cloud platforms should support better placement of code and data, so the system can move computation closer to the data when needed. Second, serverless should support different types of hardware, such as GPUs and accelerators. Third, the authors suggest long-running and addressable cloud agents that can keep identity over time but still scale like serverless. They also mention better programming models, better security, and better service-level objectives for cloud applications (Hellerstein et al., 2019).
 
 
+## Part 2: Azure Durable Functions Deep Dive
+
+### 1. Orchestration Model
+
+
+
+2. State Management
+
+
+### 3. Execution Timeouts
+
+
+
+
+### 4. Communication Between Functions
+
+
+
+### 5. Parallel Execution: Fan-Out/Fan-In
+
+
+## Part 3: Critical Evaluation
+
+
+
+
+
+
+## References
+
+Hellerstein, J. M., Faleiro, J., Gonzalez, J. E., Schleier-Smith, J., Sreekanti, V., Tumanov, A., & Wu, C. (2019). Serverless Computing: One Step Forward, Two Steps Back. CIDR 2019.
+https://www.cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf
+
+Hellerstein et al. (2019). Serverless Computing: One Step Forward, Two Steps Back - arXiv version.
+https://arxiv.org/abs/1812.03651
+
+Microsoft Learn. (n.d.-a) .  Durable Functions overview.
+https://learn.microsoft.com/en-us/azure/durable-task/durable-functions/durable-functions-overview
+
+Microsoft Learn. (n.d.-b). Durable orchestrations overview.
+https://learn.microsoft.com/en-us/azure/durable-task/common/durable-task-orchestrations
+
+Microsoft Learn. (n.d.-c). Bindings for Durable Functions in Azure Functions.
+https://learn.microsoft.com/en-us/azure/durable-task/durable-functions/durable-functions-bindings
+
+Microsoft Learn. (n.d.-d). Azure Functions scale and hosting.
+https://learn.microsoft.com/en-us/azure/azure-functions/functions-scale
+
+Microsoft Learn. (n.d.-e). Performance and scale in Durable Functions.
+https://learn.microsoft.com/en-us/azure/durable-task/durable-functions/durable-functions-perf-and-scale
+
+Microsoft Learn. (n.d.-f). Fan-out/fan-in pattern in Durable Functions.
+https://learn.microsoft.com/en-us/azure/durable-task/common/durable-task-fan-in-fan-out
+
