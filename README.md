@@ -1,7 +1,7 @@
 # CST8917 Assignment 1: Serverless Computing - Critical Analysis
 
 **Name:** Ilyas Zazai  
-**Student Number:**  
+**Student Number:**  41173490
 **Course:** CST8917 - Serverless Applications  
 **Assignment:** Assignment 1 - Serverless Computing Critical Analysis  
 **Date:** June 14, 2026  
